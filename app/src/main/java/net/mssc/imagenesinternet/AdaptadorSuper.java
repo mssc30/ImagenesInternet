@@ -1,20 +1,17 @@
 package net.mssc.imagenesinternet;
 
 import android.content.Context;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.squareup.picasso.Picasso;
-
 import java.util.List;
 
+//CLASE ADAPTADOR PARA LA CARD VIEW
 public class AdaptadorSuper extends RecyclerView.Adapter<AdaptadorSuper.SuperViewHolder> {
 
     List<MainActivity.Super> listaSuper;
@@ -46,7 +43,6 @@ public class AdaptadorSuper extends RecyclerView.Adapter<AdaptadorSuper.SuperVie
 
 
     public class SuperViewHolder extends RecyclerView.ViewHolder {
-
         ImageView imgSuper;
         TextView txtNameSuper;
 
